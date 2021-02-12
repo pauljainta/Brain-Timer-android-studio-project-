@@ -16,6 +16,7 @@
         android:layout_marginEnd="28dp"
         android:layout_marginRight="28dp"
         android:layout_marginBottom="269dp"
+        android:visibility="visible"
         app:columnCount="2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -28,6 +29,7 @@
             android:gravity="center"
             android:textColor="#FF5722"
             android:textSize="30sp"
+            android:visibility="invisible"
             app:layout_columnWeight="1"
             app:layout_rowWeight="1" />
 
@@ -36,6 +38,7 @@
             android:gravity="center"
             android:textColor="#FF5722"
             android:textSize="30sp"
+            android:visibility="invisible"
             app:layout_columnWeight="1"
             app:layout_rowWeight="1" />
 
@@ -44,6 +47,7 @@
             android:gravity="center"
             android:textColor="#FF5722"
             android:textSize="30sp"
+            android:visibility="invisible"
             app:layout_columnWeight="1"
             app:layout_rowWeight="1" />
 
@@ -52,8 +56,10 @@
             android:gravity="center"
             android:textColor="#FF5722"
             android:textSize="30sp"
+            android:visibility="invisible"
             app:layout_columnWeight="1"
             app:layout_rowWeight="1" />
+
     </androidx.gridlayout.widget.GridLayout>
 
     <TextView
@@ -69,6 +75,7 @@
         android:gravity="center"
         android:textColor="#673AB7"
         android:textSize="24sp"
+        android:visibility="invisible"
         app:layout_constraintBottom_toTopOf="@+id/gridlayout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -88,6 +95,7 @@
         android:gravity="center"
         android:textColor="#673AB7"
         android:textSize="24sp"
+        android:visibility="invisible"
         app:layout_constraintBottom_toTopOf="@+id/gridlayout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -106,9 +114,48 @@
         android:gravity="center"
         android:textColor="#673AB7"
         android:textSize="24sp"
+        android:visibility="invisible"
         app:layout_constraintBottom_toTopOf="@+id/gridlayout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="156dp"
+        android:layout_height="81dp"
+        android:layout_marginStart="127dp"
+        android:layout_marginLeft="127dp"
+        android:layout_marginTop="99dp"
+        android:layout_marginEnd="128dp"
+        android:layout_marginRight="128dp"
+        android:layout_marginBottom="88dp"
+        android:onClick="GO"
+        android:text="GO"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gridlayout" />
+
+    <TextView
+        android:id="@+id/rightwrong"
+        android:layout_width="201dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="88dp"
+        android:layout_marginLeft="88dp"
+        android:layout_marginTop="41dp"
+        android:layout_marginEnd="122dp"
+        android:layout_marginRight="122dp"
+        android:layout_marginBottom="17dp"
+        android:gravity="center"
+        android:textColor="#4CAF50"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gridlayout" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
