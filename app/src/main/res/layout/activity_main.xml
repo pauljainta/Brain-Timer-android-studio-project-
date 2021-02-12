@@ -27,36 +27,40 @@
         <TextView
             android:id="@+id/textView1"
             android:gravity="center"
+            android:tag="t1"
             android:textColor="#FF5722"
             android:textSize="30sp"
-            android:visibility="invisible"
+            android:visibility="visible"
             app:layout_columnWeight="1"
             app:layout_rowWeight="1" />
 
         <TextView
             android:id="@+id/textView2"
             android:gravity="center"
+            android:tag="t2"
             android:textColor="#FF5722"
             android:textSize="30sp"
-            android:visibility="invisible"
+            android:visibility="visible"
             app:layout_columnWeight="1"
             app:layout_rowWeight="1" />
 
         <TextView
             android:id="@+id/textView3"
             android:gravity="center"
+            android:tag="t3"
             android:textColor="#FF5722"
             android:textSize="30sp"
-            android:visibility="invisible"
+            android:visibility="visible"
             app:layout_columnWeight="1"
             app:layout_rowWeight="1" />
 
         <TextView
             android:id="@+id/textView4"
             android:gravity="center"
+            android:tag="t4"
             android:textColor="#FF5722"
             android:textSize="30sp"
-            android:visibility="invisible"
+            android:visibility="visible"
             app:layout_columnWeight="1"
             app:layout_rowWeight="1" />
 
@@ -75,7 +79,7 @@
         android:gravity="center"
         android:textColor="#673AB7"
         android:textSize="24sp"
-        android:visibility="invisible"
+        android:visibility="visible"
         app:layout_constraintBottom_toTopOf="@+id/gridlayout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -95,7 +99,7 @@
         android:gravity="center"
         android:textColor="#673AB7"
         android:textSize="24sp"
-        android:visibility="invisible"
+        android:visibility="visible"
         app:layout_constraintBottom_toTopOf="@+id/gridlayout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -114,7 +118,7 @@
         android:gravity="center"
         android:textColor="#673AB7"
         android:textSize="24sp"
-        android:visibility="invisible"
+        android:visibility="visible"
         app:layout_constraintBottom_toTopOf="@+id/gridlayout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -152,7 +156,7 @@
         android:textColor="#4CAF50"
         android:textSize="18sp"
         android:textStyle="bold"
-        android:visibility="invisible"
+        android:visibility="visible"
         app:layout_constraintBottom_toTopOf="@+id/button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
